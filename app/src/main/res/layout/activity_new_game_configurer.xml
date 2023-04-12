@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newGameConfigurer">
+
+
+    <Button
+        android:id="@+id/btn1player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#717171"
+        />
+
+    <Button
+        android:id="@+id/btn2player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#717171"
+        />
+
+    <Button
+        android:id="@+id/btn3player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#717171"
+        />
+
+
+    <Button
+        android:id="@+id/btn4player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#717171"
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="400dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="600dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

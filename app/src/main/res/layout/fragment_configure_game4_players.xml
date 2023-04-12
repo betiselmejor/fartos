@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="650dp"
+    tools:context=".configureGame4PlayersFragment">
+
+
+<!--    player1/-->
+    <Button
+        android:id="@+id/previousSkinP1"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="b"
+        android:textSize="19dp"
+        android:layout_alignEnd="@id/skin1player"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/skin1player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/skinparadobatman"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        />
+
+    <Button
+        android:id="@+id/nextSkinP1"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="a"
+        android:textSize="19dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <EditText
+        android:id="@+id/P1name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="playerName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+
+        />
+<!--player1-->
+
+
+
+<!--player2-->
+    <Button
+        android:id="@+id/previousSkinP2"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="a"
+        android:textSize="19dp"
+        android:layout_alignStart="@id/skin2player"
+        android:layout_alignBottom="@id/skin2player"
+        android:layout_marginStart="-40dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/skin2player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/skinparadomark"
+        android:layout_alignBottom="@id/skin1player"
+        android:layout_marginBottom="-110dp"
+        android:layout_marginLeft="60dp"
+        />
+
+
+    <Button
+        android:id="@+id/nextSkinP2"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="b"
+        android:textSize="19dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignRight="@id/skin2player"
+        android:layout_alignBottom="@id/skin2player"
+        />
+
+    <EditText
+        android:id="@+id/P2name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="playerName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+
+        />
+<!--player2-->
+
+
+
+<!--player3    -->
+
+    <Button
+        android:id="@+id/previousSkinP3"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="a"
+        android:textSize="19dp"
+        android:layout_alignStart="@id/skin3player"
+        android:layout_alignBottom="@id/skin3player"
+        android:layout_marginStart="-40dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+    <ImageView
+        android:src="@drawable/skinparadogoku"
+        android:id="@+id/skin3player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@id/skin2player"
+        android:layout_marginBottom="-110dp"
+        android:layout_marginLeft="60dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/nextSkinP3"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="b"
+        android:textSize="19dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignRight="@id/skin3player"
+        android:layout_alignBottom="@id/skin3player"
+        />
+
+    <EditText
+        android:id="@+id/P3name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="playerName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="40dp"
+
+        />
+<!--player3    -->
+
+
+<!--player4-->
+
+    <Button
+        android:id="@+id/previousSkinP4"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="a"
+        android:textSize="19dp"
+        android:layout_alignStart="@id/skin4player"
+        android:layout_alignBottom="@id/skin4player"
+        android:layout_marginStart="-40dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/skin4player"
+        android:src="@drawable/skinparadosora"
+        android:layout_alignBottom="@id/skin3player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="-110dp"
+        android:layout_marginLeft="60dp"
+        />
+
+
+    <Button
+        android:id="@+id/nextSkinP4"
+        android:textAllCaps="false"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="b"
+        android:textSize="19dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignRight="@id/skin4player"
+        android:layout_alignBottom="@id/skin4player"
+        />
+
+    <EditText
+        android:id="@+id/P4name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="playerName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="40dp"
+
+        />
+<!--player4-->
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start game"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnosquares"
+    tools:context=".GameActivity">
+
+<!--    &lt;!&ndash;casilla1&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella1"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        >-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella1J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella1J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella1J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella1J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla1&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;casilla2&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella2"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_marginBottom="59dp"-->
+<!--        >-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella2J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella2J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella2J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella2J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla2&ndash;&gt;-->
+
+
+
+<!--    &lt;!&ndash;casilla3&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella3"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="100dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella3J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella3J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella3J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella3J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla3&ndash;&gt;-->
+
+
+
+<!--    &lt;!&ndash;casilla4&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella4"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="151dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella4J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella4J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella4J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella4J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla4&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;casilla5&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella5"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="12dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="195dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella5J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella5J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella5J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella5J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla5&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;casilla6&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella6"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="169dp"-->
+<!--        android:layout_marginBottom="203dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella6J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella6J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella6J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella6J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla6&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;casilla7&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella7"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="248dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella7J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella7J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella7J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella7J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla7&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla8&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella8"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="299dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella8J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella8J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella8J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella8J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla8&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla9&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella9"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="349dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella9J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella9J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella9J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella9J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla9&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla10&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella10"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="400dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella10J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella10J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella10J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella10J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla10&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla11&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella11"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginBottom="450dp"-->
+<!--        android:background="@drawable/borde">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella11J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella11J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella11J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella11J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+
+<!--    &lt;!&ndash;casilla11&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla12&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella12"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="54dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_marginBottom="467dp"-->
+<!--        android:background="@drawable/borde">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella12J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella12J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella12J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella12J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla12&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla13&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella13"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/borde"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="517dp">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella13J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella13J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella13J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella13J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla13&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla14&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella14"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="44dp"-->
+<!--        android:layout_marginBottom="541dp"-->
+<!--        android:background="@drawable/borde">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella14J1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella14J2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella14J3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="38dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella14J4"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla14&ndash;&gt;-->
+
+<!--    &lt;!&ndash;casilla15&ndash;&gt;-->
+<!--    <TableLayout-->
+<!--        android:id="@+id/casella15"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="59dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="641dp"-->
+<!--        android:background="@drawable/borde">-->
+
+<!--        <TableRow>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/casella15T"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    &lt;!&ndash;casilla15&ndash;&gt;-->
+
+
+</RelativeLayout>

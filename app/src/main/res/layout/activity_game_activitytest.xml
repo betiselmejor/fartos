@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/agua"
+    tools:context=".gameActivitytest">
+
+    <FrameLayout
+        android:id="@+id/gameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@color/whiteTransparent"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/tornREF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:text="Player:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/torn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Turn:"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+            />
+                <TextView
+                    android:id="@+id/numTornTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Round:"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+            />
+                <TextView
+                    android:id="@+id/numRondaTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/asasas"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:text="SHOW\nCARDS"/>
+
+
+
+    <FrameLayout
+        android:id="@+id/cartasFragment"
+        android:layout_centerInParent="true"
+        android:layout_width="350dp"
+        android:layout_height="500dp">
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragmentKinton"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="350dp"
+        android:translationZ="50dp"/>
+
+</RelativeLayout>

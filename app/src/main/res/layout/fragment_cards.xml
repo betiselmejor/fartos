@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:background="@color/whiteTransparent"
+    android:layout_height="500dp"
+    tools:context=".cardsFragment">
+
+  <TextView
+      android:id="@+id/playerNameHand"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="PlayerName"
+      android:textColor="@color/black"
+      android:layout_centerHorizontal="true"
+      android:textSize="25dp"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="HAND"
+      android:textColor="@color/black"
+      android:layout_marginTop="35dp"
+      android:layout_centerHorizontal="true"
+      android:textSize="25dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCartasPlayer"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

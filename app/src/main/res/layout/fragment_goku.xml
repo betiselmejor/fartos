@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    tools:context=".gokuFragment">
+
+
+    <ImageView
+        android:layout_width="226dp"
+        android:layout_height="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/gokunuvolkinton"
+
+        android:translationZ="10dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blueTransparent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:translationZ="11dp"
+            android:text="Hi friend my name is Goku,\n let me help you in your \nrace, tell me what do you\nprefer, going 5 squares ahead or sendenig an enemy 5 backwards"
+        />
+
+        <Button
+            android:id="@+id/useGoku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="USE goku's help"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
